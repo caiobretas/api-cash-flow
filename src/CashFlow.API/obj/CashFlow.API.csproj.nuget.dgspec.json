@@ -1,0 +1,376 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.API/CashFlow.API.csproj": {}
+  },
+  "projects": {
+    "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.API/CashFlow.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.API/CashFlow.API.csproj",
+        "projectName": "CashFlow.API",
+        "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.API/CashFlow.API.csproj",
+        "packagesPath": "/Users/dzb/.nuget/packages/",
+        "outputPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dzb/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj": {
+                "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj"
+              },
+              "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj": {
+                "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj"
+              },
+              "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj": {
+                "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj"
+              },
+              "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj": {
+                "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj",
+        "projectName": "CashFlow.Application",
+        "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj",
+        "packagesPath": "/Users/dzb/.nuget/packages/",
+        "outputPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dzb/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj": {
+                "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj"
+              },
+              "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj": {
+                "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj"
+              },
+              "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj": {
+                "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj",
+        "projectName": "CashFlow.Communication",
+        "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj",
+        "packagesPath": "/Users/dzb/.nuget/packages/",
+        "outputPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Communication/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dzb/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj",
+        "projectName": "CashFlow.Domain",
+        "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj",
+        "packagesPath": "/Users/dzb/.nuget/packages/",
+        "outputPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dzb/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj",
+        "projectName": "CashFlow.Exception",
+        "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj",
+        "packagesPath": "/Users/dzb/.nuget/packages/",
+        "outputPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Exception/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dzb/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj",
+        "projectName": "CashFlow.Infrastructure",
+        "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj",
+        "packagesPath": "/Users/dzb/.nuget/packages/",
+        "outputPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dzb/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj": {
+                "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

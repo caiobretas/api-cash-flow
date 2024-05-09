@@ -1,0 +1,12 @@
+/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Exception/bin/Debug/net8.0/CashFlow.Exception.deps.json
+/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Exception/bin/Debug/net8.0/CashFlow.Exception.dll
+/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Exception/bin/Debug/net8.0/CashFlow.Exception.pdb
+/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Exception/obj/Debug/net8.0/CashFlow.Exception.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Exception/obj/Debug/net8.0/CashFlow.Exception.AssemblyInfoInputs.cache
+/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Exception/obj/Debug/net8.0/CashFlow.Exception.AssemblyInfo.cs
+/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Exception/obj/Debug/net8.0/CashFlow.Exception.csproj.CoreCompileInputs.cache
+/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Exception/obj/Debug/net8.0/CashFlow.Exception.sourcelink.json
+/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Exception/obj/Debug/net8.0/CashFlow.Exception.dll
+/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Exception/obj/Debug/net8.0/refint/CashFlow.Exception.dll
+/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Exception/obj/Debug/net8.0/CashFlow.Exception.pdb
+/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Exception/obj/Debug/net8.0/ref/CashFlow.Exception.dll
