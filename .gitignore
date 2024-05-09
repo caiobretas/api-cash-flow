@@ -1,0 +1,57 @@
+# Arquivos de byte compilado
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Pacotes
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Arquivos de log e banco de dados
+*.log
+*.sql
+*.sqlite
+
+# Ferramentas de Diretório do Projeto
+/.vs
+/.vscode
+/bin
+/obj
+/packages
+
+# Arquivos de configuração de Build
+*.nupkg
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+
+# Ferramentas de desempenho
+*.diagsession
+*.pfx
+*.publishsettings
+
+# Outros arquivos e diretórios ignorados
+Thumbs.db
+[Tt]est[Rr]esult*
+[Bb]uild[Ll]og.*
+*.launchSettings.json
+*.idea
+*.[Pp]ublish.xml
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Arquivos Mac Os
+*.DS_Store
