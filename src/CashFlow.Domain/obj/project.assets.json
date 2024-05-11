@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj",
+      "projectUniqueName": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj",
       "projectName": "CashFlow.Domain",
-      "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj",
+      "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj",
       "packagesPath": "/Users/dzb/.nuget/packages/",
-      "outputPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Domain/obj/",
+      "outputPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/dzb/.nuget/NuGet/NuGet.Config"

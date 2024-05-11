@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.API/CashFlow.API.csproj": {}
+    "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.API/CashFlow.API.csproj": {}
   },
   "projects": {
-    "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.API/CashFlow.API.csproj": {
+    "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.API/CashFlow.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.API/CashFlow.API.csproj",
+        "projectUniqueName": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.API/CashFlow.API.csproj",
         "projectName": "CashFlow.API",
-        "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.API/CashFlow.API.csproj",
+        "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.API/CashFlow.API.csproj",
         "packagesPath": "/Users/dzb/.nuget/packages/",
-        "outputPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.API/obj/",
+        "outputPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dzb/.nuget/NuGet/NuGet.Config"
@@ -26,17 +26,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj": {
-                "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj"
+              "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj": {
+                "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj"
               },
-              "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj": {
-                "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj"
+              "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj": {
+                "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj"
               },
-              "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj": {
-                "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj"
+              "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj": {
+                "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj"
               },
-              "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj": {
-                "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj"
+              "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj": {
+                "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj"
               }
             }
           }
@@ -87,14 +87,14 @@
         }
       }
     },
-    "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj": {
+    "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj",
+        "projectUniqueName": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj",
         "projectName": "CashFlow.Application",
-        "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj",
+        "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj",
         "packagesPath": "/Users/dzb/.nuget/packages/",
-        "outputPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Application/obj/",
+        "outputPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dzb/.nuget/NuGet/NuGet.Config"
@@ -109,14 +109,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj": {
-                "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj"
+              "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj": {
+                "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj"
               },
-              "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj": {
-                "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj"
+              "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj": {
+                "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj"
               },
-              "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj": {
-                "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj"
+              "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj": {
+                "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj"
               }
             }
           }
@@ -156,14 +156,14 @@
         }
       }
     },
-    "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj": {
+    "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj",
+        "projectUniqueName": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj",
         "projectName": "CashFlow.Communication",
-        "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj",
+        "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj",
         "packagesPath": "/Users/dzb/.nuget/packages/",
-        "outputPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Communication/obj/",
+        "outputPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Communication/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dzb/.nuget/NuGet/NuGet.Config"
@@ -209,14 +209,14 @@
         }
       }
     },
-    "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj": {
+    "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj",
+        "projectUniqueName": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj",
         "projectName": "CashFlow.Domain",
-        "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj",
+        "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj",
         "packagesPath": "/Users/dzb/.nuget/packages/",
-        "outputPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Domain/obj/",
+        "outputPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dzb/.nuget/NuGet/NuGet.Config"
@@ -262,14 +262,14 @@
         }
       }
     },
-    "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj": {
+    "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj",
+        "projectUniqueName": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj",
         "projectName": "CashFlow.Exception",
-        "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj",
+        "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj",
         "packagesPath": "/Users/dzb/.nuget/packages/",
-        "outputPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Exception/obj/",
+        "outputPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Exception/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dzb/.nuget/NuGet/NuGet.Config"
@@ -315,14 +315,14 @@
         }
       }
     },
-    "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj": {
+    "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj",
+        "projectUniqueName": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj",
         "projectName": "CashFlow.Infrastructure",
-        "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj",
+        "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj",
         "packagesPath": "/Users/dzb/.nuget/packages/",
-        "outputPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Infrastructure/obj/",
+        "outputPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dzb/.nuget/NuGet/NuGet.Config"
@@ -337,8 +337,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj": {
-                "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj"
+              "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj": {
+                "projectPath": "/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj"
               }
             }
           }

@@ -1,4 +1,5 @@
 using CashFlow.Communications.Responses;
+using CashFlow.Exception;
 using CashFlow.Exception.ExceptionsBase;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
@@ -17,19 +18,23 @@ public class ExceptionFilter : IExceptionFilter
 
     private void HandleProjectException(ExceptionContext context)
     {
-        if (context.Exception is ErrorOnValidationException)
+        if (context.Exception is ErrorOnValidationException exception)
         {
-            var ex = (ErrorOnValidationException)context.Exception;
-            var errorResponse = new ResponseErrorJson(ex.ErrorMessages);
-
+            ResponseErrorJson errorResponse = new(exception.ErrorMessages);
             context.HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
             context.Result = new BadRequestObjectResult(errorResponse);
+        }
+        else
+        {
+            ResponseErrorJson errors = new(context.Exception.Message);
+            context.HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
+            context.Result = new BadRequestObjectResult(errors);
         }
     }
 
     private void ThrowUnknownError(ExceptionContext context)
     {
-        var error = new ResponseErrorJson("Unknown error");
+        var error = new ResponseErrorJson(ResourceErrorMessages.UNKNOWN_ERROR);
         context.HttpContext.Response.StatusCode = StatusCodes.Status500InternalServerError;
         context.Result = new ObjectResult(error);
     }

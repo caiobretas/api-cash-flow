@@ -10,3 +10,15 @@
 /Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/refint/CashFlow.Communication.dll
 /Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.pdb
 /Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Rocketseat/API/Finance/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/ref/CashFlow.Communication.dll
+/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Communication/bin/Debug/net8.0/CashFlow.Communication.deps.json
+/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Communication/bin/Debug/net8.0/CashFlow.Communication.dll
+/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Communication/bin/Debug/net8.0/CashFlow.Communication.pdb
+/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.AssemblyInfoInputs.cache
+/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.AssemblyInfo.cs
+/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.csproj.CoreCompileInputs.cache
+/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.sourcelink.json
+/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.dll
+/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/refint/CashFlow.Communication.dll
+/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.pdb
+/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/ref/CashFlow.Communication.dll

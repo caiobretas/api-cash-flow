@@ -19,10 +19,10 @@ public class RegisterExpenseUseCase
     {
         var validator = new RegisterExpenseValidator();
         var result = validator.Validate(request);
-        if (!result.IsValid)
-        {
-            var errors = result.Errors.Select(x => x.ErrorMessage).ToList();
-            throw new ErrorOnValidationException(errors);
-        }
+
+        if (result.IsValid) return;
+
+        var errors = result.Errors.Select(x => x.ErrorMessage).ToList();
+        throw new ErrorOnValidationException(errors);
     }
 }
