@@ -474,3 +474,5 @@
 /Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.API/obj/Debug/net8.0/CashFlow.API.pdb
 /Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.API/obj/Debug/net8.0/CashFlow.API.genruntimeconfig.cache
 /Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.API/obj/Debug/net8.0/ref/CashFlow.API.dll
+/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.API/bin/Debug/net8.0/pt-PT/CashFlow.Exception.resources.dll
+/Users/dzb/Library/CloudStorage/GoogleDrive-caiodinizbretas2001@gmail.com/Meu Drive/Courses/Back/C#/API/Finance/CashFlow/src/CashFlow.API/bin/Debug/net8.0/pt-BR/CashFlow.Exception.resources.dll
