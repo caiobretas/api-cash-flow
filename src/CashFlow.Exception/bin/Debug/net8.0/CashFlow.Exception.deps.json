@@ -13,9 +13,6 @@
         "resources": {
           "pt-BR/CashFlow.Exception.resources.dll": {
             "locale": "pt-BR"
-          },
-          "pt-PT/CashFlow.Exception.resources.dll": {
-            "locale": "pt-PT"
           }
         }
       }
