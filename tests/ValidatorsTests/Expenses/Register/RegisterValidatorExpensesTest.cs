@@ -26,7 +26,7 @@ public class RegisterValidatorExpensesTest
     [InlineData("")]
     [InlineData("   ")]
     [InlineData(null)]
-    public void Error_Title_Empty_or_Null(string title)
+    public void Error_Title_Empty(string title)
     {
         // Arrange
         var validator = new RegisterExpenseValidator();
