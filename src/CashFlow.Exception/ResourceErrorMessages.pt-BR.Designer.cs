@@ -44,5 +44,35 @@ namespace CashFlow.Exception {
                 resourceCulture = value;
             }
         }
+        
+        internal static string AMOUNT_MUST_BE_GREATER_THAN_ZERO {
+            get {
+                return ResourceManager.GetString("AMOUNT_MUST_BE_GREATER_THAN_ZERO", resourceCulture);
+            }
+        }
+        
+        internal static string DATE_CANNOT_BE_IN_THE_FUTURE {
+            get {
+                return ResourceManager.GetString("DATE_CANNOT_BE_IN_THE_FUTURE", resourceCulture);
+            }
+        }
+        
+        internal static string INVALID_PAYMENT_TYPE {
+            get {
+                return ResourceManager.GetString("INVALID_PAYMENT_TYPE", resourceCulture);
+            }
+        }
+        
+        internal static string REQUIRED_TITLE {
+            get {
+                return ResourceManager.GetString("REQUIRED_TITLE", resourceCulture);
+            }
+        }
+        
+        internal static string UNKNOWN_ERROR {
+            get {
+                return ResourceManager.GetString("UNKNOWN_ERROR", resourceCulture);
+            }
+        }
     }
 }

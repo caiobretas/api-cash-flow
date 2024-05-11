@@ -18,4 +18,19 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
+    <data name="AMOUNT_MUST_BE_GREATER_THAN_ZERO" xml:space="preserve">
+        <value>Quantidade não pode ser menor que 0</value>
+    </data>
+    <data name="DATE_CANNOT_BE_IN_THE_FUTURE" xml:space="preserve">
+        <value>Data não pode ser no futuro</value>
+    </data>
+    <data name="INVALID_PAYMENT_TYPE" xml:space="preserve">
+        <value>Tipo de pagamento não é válido</value>
+    </data>
+    <data name="REQUIRED_TITLE" xml:space="preserve">
+        <value>Título não pode ser nulo</value>
+    </data>
+    <data name="UNKNOWN_ERROR" xml:space="preserve">
+        <value>Erro desconhecido</value>
+    </data>
 </root>
