@@ -7,7 +7,7 @@ using CashFlow.Exception.ExceptionsBase;
 
 namespace CashFlow.Application.UseCases.Expenses.Register;
 
-public class RegisterExpenseUseCase(IExpensesRepository repository) : IRegisterExpenseUseCase
+public class RegisterExpenseUseCase(IExpensesRepository repository, IUnitOfWork unitOfWork) : IRegisterExpenseUseCase
 {
     public ResponseRegisterExpenseJson Execute(RequestRegisterExpenseJson request)
     {
@@ -21,7 +21,10 @@ public class RegisterExpenseUseCase(IExpensesRepository repository) : IRegisterE
             Description = request.Description,
             PaymentType = (PaymentType)request.PaymentType
         };
+
         repository.Add(expense);
+
+        unitOfWork.Commit();
 
         return new ResponseRegisterExpenseJson
         {
