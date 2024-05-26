@@ -10,8 +10,9 @@ public class ExpensesController : ControllerBase
 {
     [HttpPost]
     public IActionResult Register(
-        [FromBody] RequestRegisterExpenseJson request,
-        [FromServices] RegisterExpenseUseCase useCase)
+        [FromServices] IRegisterExpenseUseCase useCase,
+        [FromBody] RequestRegisterExpenseJson request
+    )
     {
         var response = useCase.Execute(request);
         return Created(string.Empty, response);
