@@ -1,17 +1,31 @@
 using CashFlow.Communications.Requests.Register;
 using CashFlow.Communications.Responses.Register;
+using CashFlow.Domain.Entities;
+using CashFlow.Domain.Enums;
+using CashFlow.Domain.Repositories.Expenses;
 using CashFlow.Exception.ExceptionsBase;
 
 namespace CashFlow.Application.UseCases.Expenses.Register;
 
-public class RegisterExpenseUseCase
+public class RegisterExpenseUseCase(IExpensesRepository repository) : IRegisterExpenseUseCase
 {
     public ResponseRegisterExpenseJson Execute(RequestRegisterExpenseJson request)
     {
         Validate(request);
+
+        Expense expense = new()
+        {
+            Title = request.Title,
+            Amount = request.Amount,
+            Date = request.Date,
+            Description = request.Description,
+            PaymentType = (PaymentType)request.PaymentType
+        };
+        repository.Add(expense);
+
         return new ResponseRegisterExpenseJson
         {
-            Title = request.Title
+            Title = expense.Title
         };
     }
 
