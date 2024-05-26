@@ -1,5 +1,6 @@
 using CashFlow.API.Filters;
 using CashFlow.API.Middleware;
+using CashFlow.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,8 @@ builder.Services.AddSwaggerGen();
 
 // Add the exception filter
 builder.Services.AddMvc(options => options.Filters.Add(typeof(ExceptionFilter)));
+
+DependencyInjectionExtension.AddInfrastructure(builder.Services);
 
 var app = builder.Build();
 
