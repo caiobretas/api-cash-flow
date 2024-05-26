@@ -11,12 +11,13 @@ public static class DependencyInjectionExtension
 {
     public static void AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
     {
-        AddRepositories(services);
         AddContext(services, configuration);
+        AddRepositories(services);
     }
 
     private static void AddRepositories(IServiceCollection services)
     {
+        services.AddScoped<IUnitOfWork, UnitOfWork>();
         services.AddScoped<IExpensesRepository, ExpensesRepository>();
     }
 
@@ -24,6 +25,7 @@ public static class DependencyInjectionExtension
     {
         var connectionString = configuration.GetConnectionString("Connection");
         var mySqlVersion = new MySqlServerVersion(new Version(8, 4, 0));
+
         services.AddDbContext<CashFlowDbContext>(
             config => config.UseMySql(connectionString, mySqlVersion));
     }
