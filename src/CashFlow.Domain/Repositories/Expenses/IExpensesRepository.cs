@@ -6,4 +6,5 @@ public interface IExpensesRepository
 {
     Task AddAsync(Expense expense);
     Task<List<Expense>> GetAllAsync();
+    Task<Expense> GetByIdAsync(long id);
 }

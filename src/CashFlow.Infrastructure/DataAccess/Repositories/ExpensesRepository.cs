@@ -16,4 +16,9 @@ internal class ExpensesRepository(CashFlowDbContext dbContext) : IExpensesReposi
         // AsNoTracking para não armazenar o Cache
         return await dbContext.Expenses.AsNoTracking().ToListAsync();
     }
+
+    public async Task<Expense> GetByIdAsync(long id)
+    {
+        return await dbContext.Expenses.AsNoTracking().Where(e => e.Id == id).FirstAsync();
+    }
 }
