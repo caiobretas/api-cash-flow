@@ -1,4 +1,4 @@
-namespace CashFlow.Communications.Responses;
+namespace CashFlow.Communications.Responses.GetAll;
 
 public class ResponseShortExpensesJson
 {
