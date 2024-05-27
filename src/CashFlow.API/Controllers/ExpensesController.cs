@@ -1,8 +1,10 @@
 using CashFlow.Application.UseCases.Expenses.GetAll;
+using CashFlow.Application.UseCases.Expenses.GetById;
 using CashFlow.Application.UseCases.Expenses.Register;
 using CashFlow.Communications.Requests.Register;
 using CashFlow.Communications.Responses;
 using CashFlow.Communications.Responses.GetAll;
+using CashFlow.Communications.Responses.GetById;
 using CashFlow.Communications.Responses.Register;
 using Microsoft.AspNetCore.Mvc;
 
@@ -26,12 +28,21 @@ public class ExpensesController : ControllerBase
 
     [HttpGet]
     [ProducesResponseType(typeof(ResponseExpensesJson), StatusCodes.Status200OK)]
-    [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status204NoContent)]
     public async Task<IActionResult> GetAll([FromServices] IGetAllExpensesUseCase useCase)
     {
         var response = await useCase.Execute();
         if (response.Expenses.Any())
             return Ok(response);
         return NoContent();
+    }
+
+    [HttpGet]
+    [ProducesResponseType(typeof(ResponseExpenseJson), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status200OK)]
+    public async Task<IActionResult> GetById([FromRoute] long id, [FromServices] IGetByIdUseCase useCase)
+    {
+        var result = await useCase.Execute(id);
+        return Ok(result);
     }
 }
