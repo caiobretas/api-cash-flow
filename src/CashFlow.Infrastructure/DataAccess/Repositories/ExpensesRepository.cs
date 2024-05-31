@@ -4,21 +4,35 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CashFlow.Infrastructure.DataAccess.Repositories;
 
-internal class ExpensesRepository(CashFlowDbContext dbContext) : IExpensesRepository
+internal class ExpensesRepository(
+    CashFlowDbContext dbContext,
+    IUnitOfWork unitOfWork)
+    : IExpensesWriteOnlyRepository, IExpensesReadOnlyRepository
 {
+    // AsNoTracking for cache
+    public async Task<List<Expense>> GetAllAsync()
+    {
+        return await dbContext.Expenses.AsNoTracking().ToListAsync();
+    }
+
+    public async Task<Expense?> GetByIdAsync(long id)
+    {
+        return await dbContext.Expenses.AsNoTracking().FirstOrDefaultAsync(e => e.Id == id);
+    }
+
     public async Task AddAsync(Expense expense)
     {
         await dbContext.Expenses.AddAsync(expense);
     }
 
-    public async Task<List<Expense>> GetAllAsync()
+    public async Task<bool> DeleteAsync(long id)
     {
-        // AsNoTracking para não armazenar o Cache
-        return await dbContext.Expenses.AsNoTracking().ToListAsync();
-    }
+        var result = await dbContext.Expenses.FirstOrDefaultAsync(e => e.Id == id);
+        if (result is null)
+            return false;
 
-    public async Task<Expense> GetByIdAsync(long id)
-    {
-        return await dbContext.Expenses.AsNoTracking().Where(e => e.Id == id).FirstAsync();
+        dbContext.Expenses.Remove(result);
+        await unitOfWork.CommitAsync();
+        return true;
     }
 }
